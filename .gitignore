@@ -1,0 +1,21 @@
+# Ignore everything by default
+*
+# But allow these specific files
+!.bashrc
+!ds.sh
+!gpilot.sh
+!git_check.sh
+!setup-repos.sh
+!*.txt
+!*.py
+!.gitignore
+
+# Explicitly ignore backups and keys just in case
+*.tar.gz
+*.zip
+*.key
+*.crt
+# Ignore sub-repo directories
+ups_project/
+docker_apps/
+nmap-web-nse/

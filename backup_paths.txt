@@ -1,0 +1,6 @@
+/config/workspace/ups_project
+/config/workspace/docker_monitor
+/config/workspace/nmap-web-nse
+/config/workspace/borg_server
+/config/workspace/borg_ui
+/config/workspace/apps

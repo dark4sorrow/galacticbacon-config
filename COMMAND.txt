@@ -1,0 +1,3 @@
+Please run the following command and paste the output here:
+
+sudo netstat -tuln

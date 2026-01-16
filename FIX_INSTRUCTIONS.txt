@@ -1,0 +1,7 @@
+I have corrected the Cockpit proxy port in /config/workspace/ups_project/nginx_conf from 9094 to 9090.
+
+You will need to reload the Nginx configuration for this change to take effect.
+
+You can usually do this by running 'sudo systemctl reload nginx' or 'sudo service nginx reload' on your server.
+
+After you have reloaded Nginx, the link to Cockpit should work correctly.

@@ -1,0 +1,4 @@
+# Replace /path/to/project with your actual directory
+sudo chown -R $USER:$USER /path/to/project
+
+
