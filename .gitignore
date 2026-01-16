@@ -1,6 +1,4 @@
-# Ignore everything by default
 *
-# But allow these specific files
 !.bashrc
 !ds.sh
 !gpilot.sh
@@ -9,13 +7,13 @@
 !*.txt
 !*.py
 !.gitignore
-
-# Explicitly ignore backups and keys just in case
-*.tar.gz
-*.zip
+# Security Exclusions
 *.key
 *.crt
-# Ignore sub-repo directories
+# Large Data Exclusions
+*.tar.gz
+*.zip
+# Sub-repo Exclusions
 ups_project/
 docker_apps/
 nmap-web-nse/

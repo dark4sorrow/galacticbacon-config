@@ -2,13 +2,14 @@
 
 # Configuration: Add your repo paths here
 declare -A repos=(
+    ["Config & Home Scripts"]="$HOME"
     ["UPS Project"]="$HOME/ups_project"
     ["Nmap Web NSE"]="$HOME/nmap-web-nse"
     ["DNS Resolver"]="$HOME/docker_apps/dns"
     ["Host Monitor"]="$HOME/docker_apps/host-monitor"
     ["Informacast Monitor"]="$HOME/docker_apps/informacast"
     ["OS Fingerprinter"]="$HOME/docker_apps/os-fingerprint"
-    ["GalacticBacon Docker"]="$HOME/docker_apps"
+    ["Master Docker Compose"]="$HOME/docker_apps"
 )
 
 echo "------------------------------------------"
