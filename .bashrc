@@ -156,3 +156,19 @@ if [ -f ~/ds.sh ]; then toolbox; fi
 # Aliases
 alias gsave='git add . && git commit -m "Quick save via alias" && git push'
 alias gpilot='~/gpilot.sh'
+
+untoolbox() {
+
+    cat <<'TOOL'
+
+  / \
+ (o.o)
+ (>-<)
+  " /
+   V
+
+TOOL
+
+    deactivate && echo "[ SYSTEM: TOOLBOX DEACTIVATED ]"
+
+}
